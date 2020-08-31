@@ -1,0 +1,18 @@
+
+// Light Backgrounds
+.bg-default {
+	@include bg-behaviour($body-bg);
+}
+.float-bg{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: url('../img/net-bg-831x383.png') no-repeat center;
+	background-size: contain;
+	width: 831px;
+	height: 383px;
+	opacity: .3;
+	z-index: 2;
+	max-width: 100%;
+}
